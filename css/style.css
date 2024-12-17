@@ -3,26 +3,27 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-div.son-eklenenler{
+div.last-entries{
     text-align: left;
 }
 
 
-li.son-eklenenler{
+li.last-entries{
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
     margin-bottom: 10px;
+    text-transform: capitalize;
 }
 
 
-a.son-eklenenler {
+a.last-entries {
     color: black;
     font-weight: bold;
     text-decoration: none;
 
 }
 
-ul.son-eklenenler{
+ul.last-entries{
     list-style: none;
     padding: 0;
 }
@@ -61,6 +62,7 @@ a.nav-box-item-text {
     color: black;
     text-decoration: none;
     font-size: 1.4em;
+    text-transform: capitalize;
 }
 
 a.nav-box-item-text:hover {
