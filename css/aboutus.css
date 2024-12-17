@@ -1,0 +1,29 @@
+div.main {
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+
+div.main h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+div.main p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+div.main img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+}
