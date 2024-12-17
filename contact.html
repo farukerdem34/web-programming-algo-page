@@ -1,12 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!--Ders ingilizce olduğu için ingilizce hazırlanacak-->
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Contact</title>
-	<link rel="stylesheet" href="css/style.css">
+	<title>AlgoLearn | Contact</title>
+	<link rel="stylesheet" href="/css/style.css">
 </head>
-<body>
 
+<body>
+	<!-- HEADER START -->
+	<div class="header">
+		<a href="#default" class="logo">AlgoLearn</a>
+		<div class="header-right">
+			<a href="index.html">Home</a>
+			<a class="active" href="contact.html"">Contact</a>
+			<a href="aboutus.html">About</a>
+		</div>
+	</div>
+	<!-- HEADER END -->
+
+
+	<!-- MAIN START -->
+
+	<div class="main">
+		<div class="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3282.674043613595!2d28.89013098265603!3d41.02032641766088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1734437338137!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+		<div class="contact-form">
+			<form action="/submit_contact_form" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				
+				<label for="subject">Subject:</label>
+				<input type="text" id="subject" name="subject" required>
+				
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" rows="4" required></textarea>
+				
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- MAIN END -->
+
+	<!-- FOOTER START -->
+	<footer class="footer">
+		<div class="footer__addr">
+			<h1 class="footer__logo">AlgoLearn</h1>
+
+			<h2>Contact</h2>
+
+			<address>
+				İstanbul/Güngören, Yıldız Teknopark<br>
+
+				<a class="footer__btn" href="mailto:info@algolearn.net">Email Us</a>
+			</address>
+		</div>
+
+		<ul class="footer__nav">
+			<li class="nav__item">
+				<h2 class="nav__title">Media</h2>
+
+				<ul class="nav__ul">
+					<li>
+						<a href="#">Online</a>
+					</li>
+
+					<li>
+						<a href="#">Print</a>
+					</li>
+
+					<li>
+						<a href="#">Alternative Ads</a>
+					</li>
+				</ul>
+			</li>
+
+			<li class="nav__item nav__item--extra">
+				<h2 class="nav__title">Technology</h2>
+
+				<ul class="nav__ul nav__ul--extra">
+					<li>
+						<a href="#">Hardware Design</a>
+					</li>
+
+					<li>
+						<a href="#">Software Design</a>
+					</li>
+
+					<li>
+						<a href="#">Digital Signage</a>
+					</li>
+
+					<li>
+						<a href="#">Automation</a>
+					</li>
+
+					<li>
+						<a href="#">Artificial Intelligence</a>
+					</li>
+
+					<li>
+						<a href="#">IoT</a>
+					</li>
+				</ul>
+			</li>
+
+			<li class="nav__item">
+				<h2 class="nav__title">Legal</h2>
+
+				<ul class="nav__ul">
+					<li>
+						<a href="#">Privacy Policy</a>
+					</li>
+
+					<li>
+						<a href="#">Terms of Use</a>
+					</li>
+
+					<li>
+						<a href="#">Sitemap</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+
+		<div class="legal">
+			<p>&copy; 2024 AlgoLearn. All rights reserved.</p>
+
+
+		</div>
+	</footer>
+	<!-- FOOTER END -->
 </body>
+
 </html>
