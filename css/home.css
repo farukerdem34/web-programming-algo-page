@@ -108,3 +108,8 @@ div .banner img {
     max-width: 100%;
     height: auto;
 }
+
+div#ad-box img {
+    max-width: 90%;
+    height: auto;
+}
