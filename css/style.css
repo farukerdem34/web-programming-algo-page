@@ -3,81 +3,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-div.map{
-    border: 2px grey solid;
-    padding: 2%;
-}
-
-.contact-form {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.contact-form label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: bold;
-}
-
-.contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-.contact-form button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.contact-form button:hover {
-    background-color: #0056b3;
-}
-
-div.last-entries{
-    text-align: left;
-}
-
-
-li.last-entries{
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    text-transform: capitalize;
-}
-
-
-a.last-entries {
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-
-}
-
-a.last-entries:hover{
-    color: blue;
-}
-
-ul.last-entries{
-    list-style: none;
-    padding: 0;
-}
-
 div.main {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -87,50 +12,7 @@ div.main {
     justify-content: center;
 }
 
-div#nav-box {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1%;
-    text-align: center;
-    align-items: center;
-    justify-content: start;
-    overflow: scroll;
-}
 
-div.nav-box-item {
-    background-color: lightblue;
-    text-align: center;
-    font-weight: bold;
-    padding: 20px;
-    font-size: 18px;
-    border-radius: 20px;
-
-}
-
-a.nav-box-item-text {
-    font-weight: bold;
-    color: black;
-    text-decoration: none;
-    font-size: 1.4em;
-    text-transform: capitalize;
-}
-
-a.nav-box-item-text:hover {
-    color: white;
-}
-
-#content-box {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-    text-align: center;
-    padding: 20px;
-}
-
-#ad-box {
-    height: 300px;
-    text-align: center;
-    overflow: visible;
-}
 
 div.main,
 div.header {
