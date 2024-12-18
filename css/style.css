@@ -36,9 +36,17 @@ div.header {
     border-radius: 4px;
 }
 
-.header a.logo {
-    font-size: 25px;
-    font-weight: bold;
+
+a.logo{
+    padding: 0;
+}
+div.header div.logo{
+    background-image: url(../img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 50px;
+    float: left;
 }
 
 .header a:hover {
