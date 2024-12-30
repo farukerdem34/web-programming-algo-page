@@ -1,9 +1,9 @@
-div.last-entries{
+div.last-entries {
     text-align: left;
 }
 
 
-li.last-entries{
+li.last-entries {
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -18,11 +18,11 @@ a.last-entries {
 
 }
 
-a.last-entries:hover{
+a.last-entries:hover {
     color: blue;
 }
 
-ul.last-entries{
+ul.last-entries {
     list-style: none;
     padding: 0;
 }
@@ -74,9 +74,10 @@ a.nav-box-item-text:hover {
     overflow: visible;
 }
 
-div.categories{
+div.categories {
     text-align: left;
 }
+
 ul.categories {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -84,13 +85,6 @@ ul.categories {
     list-style-type: none;
     padding: 0;
 }
-
-/* ul.categories > li {
-    background-color: #f9f9f9;
-    padding: 10px;
-    border-radius: 4px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-} */
 
 
 div.banner {

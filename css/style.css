@@ -120,10 +120,6 @@ body {
 }
 
 .footer__logo {
-    /* font-family: 'Pacifico', cursive;
-    font-weight: 400;
-    text-transform: lowercase;
-    font-size: 1.5rem; */
     background-image: url(../img/logo.png);
     background-size: contain;
     background-repeat: no-repeat;
