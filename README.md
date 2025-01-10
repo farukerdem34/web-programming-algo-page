@@ -1,4 +1,4 @@
-# AlgoLearn
+# [AlgoLearn](https://odev.farukerdem.page/)
 
 AlgoLearn is an educational platform designed to provide resources and information on algorithms, data structures, AI, machine learning, cybersecurity, blockchain, web development, and more. The platform includes various sections such as events, competitions, presentations, documents, and a forum for discussions.
 
